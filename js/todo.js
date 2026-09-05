@@ -21,6 +21,10 @@ const toDoList = document.querySelector('.taskList');
 // funciton to add list items
 function addTask() {
     const listText = document.querySelector('.newTask').value
+    if ( listText === '') {
+        alert('You must create a task first')
+    } else {
+    
     const newListItem = document.createElement('li');
     const deleteButton = document.createElement('button');
     const checkBox = document.createElement('input');
@@ -64,6 +68,7 @@ function addTask() {
         }
     });
 
+}
 };
 
 // function to delete the whole list (.removes() will delete all but won't let add to list after), alert() doesn't give yes or no to delete all just an alert
