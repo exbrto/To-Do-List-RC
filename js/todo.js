@@ -21,6 +21,7 @@ const toDoList = document.querySelector('.taskList');
 // funciton to add list items
 function addTask() {
     const listText = document.querySelector('.newTask').value
+    
     if ( listText === '') {
         alert('You must create a task first')
     } else {
