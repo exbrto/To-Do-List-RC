@@ -5,37 +5,75 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 62.5%;
 }
 body > section {
     border: 5px solid #ffffff3b;
-    border-radius: 40px;
+    border-radius: 4rem;
     min-height: 85vh;
     backdrop-filter: blur(10px);
     padding: 1% 5%;
 }
 h1 {
     font-family: 'Space Grotesk', 'Helvetica', sans-serif;
-    font-size: 48px;
+    font-size: 3.2rem;
     color: #63866b;
 }
 li {
     font-family: 'Space Grotesk', 'Helvetica', sans-serif;
-    font-size: 32px;
+    font-size: 2.4rem;
     color: #d7ffe0;
 }
 button {
     background: transparent;
     backdrop-filter: blur(10px);
     border: 1px;
-    font-size: 28px;
+    font-size: 2rem;
 }
 .newTask {
     font-family: 'Space Grotesk', 'Helvetica', sans-serif;
     background: transparent;
     backdrop-filter: blur(10px);
-    font-size: 24px;
+    font-size: 2rem;
     color: #d7ffe0;
 }
 input::placeholder{ 
     color: #d7ffe0;
+}
+@media (max-width: 780px) {
+    body {
+        padding: 6vh 5%;
+    }
+    .newTask {
+        width: 90%;
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 2.4rem;
+    }
+    li {
+        font-size: 1.8rem;
+    }
+    button {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600) {
+    body {
+        padding: 6vh 2%;
+    }
+    .newTask {
+        width: 90%;
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    li {
+        font-size: 1.4rem;
+    }
+    button {
+        font-size: 1.4rem;
+    }
 }
