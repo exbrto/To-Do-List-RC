@@ -1,22 +1,26 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ To-Do List
 
-### Goal: Build a Simple Todo List
+A simple browser-based to-do list app built with vanilla JavaScript. 
+Add tasks, mark them complete, delete individual tasks, or clear the whole list.
 
-### How to submit your code for review:
+![screenshot](./images/rc-to-doList.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## 🔗 Live Demo
+[Try it here](https://rc-simple-todo.netlify.app/)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## ✨ Features
+- Add new tasks
+- Mark tasks as complete/incomplete
+- Delete individual tasks
+- Clear the entire list
+
+## 🛠️ Built With
+- HTML, CSS, JavaScript
+
+## 🚀 Running Locally
+1. Clone the repo
+2. Open `index.html` in your browser
+
+## 📚 What I Learned
+- Manipulating the DOM to add/remove elements dynamically
+- Managing state for a list of items without a framework
